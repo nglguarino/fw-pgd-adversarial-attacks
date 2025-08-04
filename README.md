@@ -74,14 +74,14 @@ Our experiments demonstrate that:
 ### 1. Pre-train the CNN Model (MNIST)
 First, run the MNIST CNN training notebook to create the target model:
 ```bash
-jupyter notebook MNIST_CNN_group14_vFinal.ipynb
+jupyter notebook pretrainCNN_MNIST.ipynb
 ```
 This will generate `mnist_cnn.pth` containing the pre-trained CNN model.
 
 ### 2. Run Adversarial Attacks
 Execute the main notebook containing all experiments:
 ```bash
-jupyter notebook odsProject_group14_vFinal.ipynb
+jupyter notebook advAttacks_main.ipynb
 ```
 
 The main notebook includes:
