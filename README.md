@@ -59,6 +59,8 @@ Our experiments demonstrate that:
 - **FW-Momentum** achieves 100% ASR with competitive distortion levels
 - **Projection-free methods** show faster per-iteration runtime compared to PGD
 - **L∞ attacks** consistently outperform L2 attacks in both success rate and distortion
+    ![fw-momentum_linf](assets/fw-momentum_linf.png)
+    ![fw-momentum_l2](assets/fw-momentum_l2.png)
 
 ## 🛠️ Requirements
 
@@ -118,8 +120,10 @@ The main notebook includes:
 
 ### Key Observations
 - **Zig-zagging issue**: Vanilla FW suffers when optimal point lies on constraint boundary
-- **Away-steps and Pairwise variants**: Address zig-zagging, achieve linear convergence
 - **Success vs Convergence**: Success criterion yields ~9.44% confidence, convergence achieves ~99.68%
+- **Away-steps and Pairwise variants**: Address zig-zagging, achieve linear convergence in a convex setting
+- **FW-momentum**: achieves O(1/√T) convergence rate
+    ![fw-momentum_convergence](assets/convergence.png)
 
 ## 📚 References
 
