@@ -128,7 +128,7 @@ The main notebook includes:
 - **FW-momentum**: achieves O(1/√T) convergence rate
 
 <div align="center">
-  <img src="assets/convergence.png" alt="FW-Momentum Convergence" width="400">
+  <img src="assets/convergence.png" alt="FW-Momentum Convergence" width="450">
 </div>
 
 ## 📚 References
