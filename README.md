@@ -124,8 +124,8 @@ The main notebook includes:
 ### Key Observations
 - **Zig-zagging issue**: Vanilla FW suffers when optimal point lies on constraint boundary
 - **Success vs Convergence**: Success criterion yields ~9.44% confidence, convergence achieves ~99.68%
-- **Away-steps and Pairwise variants**: Address zig-zagging, achieve linear convergence in a convex setting
-- **FW-momentum**: achieves O(1/√T) convergence rate
+- **Away-steps and Pairwise variants**: Address zig-zagging, achieve linear convergence in convex settings
+- **FW-momentum**: achieves O(1/√T) convergence rate in non-convex settings
 
 <div align="center">
   <img src="assets/convergence.png" alt="FW-Momentum Convergence" width="450">
