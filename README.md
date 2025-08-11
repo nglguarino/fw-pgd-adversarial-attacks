@@ -61,8 +61,8 @@ Our experiments demonstrate that:
 - **L∞ attacks** consistently outperform L2 attacks in both success rate and distortion
 
 <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
-  <img src="assets/fw-momentum_linf.png" alt="FW-Momentum L-infinity attack results" width="280">
-  <img src="assets/fw-momentum_l2.png" alt="FW-Momentum L2 attack results" width="280">
+  <img src="assets/fw-momentum_linf.png" alt="FW-Momentum L-infinity attack results" width="2800">
+  <img src="assets/fw-momentum_l2.png" alt="FW-Momentum L2 attack results" width="2800">
 </div>
 
 ## 🛠️ Requirements
@@ -128,7 +128,7 @@ The main notebook includes:
 - **FW-momentum**: achieves O(1/√T) convergence rate
 
 <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
-  <img src="assets/convergence.png" alt="FW-Momentum Convergence" width="280">
+  <img src="assets/convergence.png" alt="FW-Momentum Convergence" width="2800">
 </div>
 
 ## 📚 References
