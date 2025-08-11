@@ -127,7 +127,7 @@ The main notebook includes:
 - **Away-steps and Pairwise variants**: Address zig-zagging, achieve linear convergence in a convex setting
 - **FW-momentum**: achieves O(1/√T) convergence rate
 
-<div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px; margin: 0 auto;">
   <img src="assets/convergence.png" alt="FW-Momentum Convergence" width="300">
 </div>
 
