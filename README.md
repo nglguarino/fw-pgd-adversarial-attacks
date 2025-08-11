@@ -59,8 +59,11 @@ Our experiments demonstrate that:
 - **FW-Momentum** achieves 100% ASR with competitive distortion levels
 - **Projection-free methods** show faster per-iteration runtime compared to PGD
 - **L∞ attacks** consistently outperform L2 attacks in both success rate and distortion
-    ![fw-momentum_linf](assets/fw-momentum_linf.png)
-    ![fw-momentum_l2](assets/fw-momentum_l2.png)
+
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+  <img src="assets/fw-momentum_linf.png" alt="FW-Momentum L-infinity attack results" width="280">
+  <img src="assets/fw-momentum_l2.png" alt="FW-Momentum L2 attack results" width="280">
+</div>
 
 ## 🛠️ Requirements
 
@@ -123,7 +126,10 @@ The main notebook includes:
 - **Success vs Convergence**: Success criterion yields ~9.44% confidence, convergence achieves ~99.68%
 - **Away-steps and Pairwise variants**: Address zig-zagging, achieve linear convergence in a convex setting
 - **FW-momentum**: achieves O(1/√T) convergence rate
-    ![fw-momentum_convergence](assets/convergence.png)
+
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+  <img src="assets/convergence.png" alt="FW-Momentum Convergence" width="280">
+</div>
 
 ## 📚 References
 
